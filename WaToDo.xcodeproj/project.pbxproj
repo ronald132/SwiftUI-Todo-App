@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527014CB26A8717F00B3D1B3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527014CA26A8717F00B3D1B3 /* SettingsView.swift */; };
+		527014CD26A8735B00B3D1B3 /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527014CC26A8735B00B3D1B3 /* FormRowStaticView.swift */; };
+		527014CF26A876F300B3D1B3 /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527014CE26A876F300B3D1B3 /* FormRowLinkView.swift */; };
+		527014DA26A92FF900B3D1B3 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 527014D126A92FF800B3D1B3 /* Blue.png */; };
+		527014DB26A92FF900B3D1B3 /* Green Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 527014D226A92FF800B3D1B3 /* Green Dark.png */; };
+		527014DC26A92FF900B3D1B3 /* Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 527014D326A92FF800B3D1B3 /* Pink.png */; };
+		527014DD26A92FF900B3D1B3 /* Blue Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 527014D426A92FF800B3D1B3 /* Blue Dark.png */; };
+		527014DE26A92FF900B3D1B3 /* Pink Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 527014D526A92FF900B3D1B3 /* Pink Dark.png */; };
+		527014DF26A92FF900B3D1B3 /* Green Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 527014D626A92FF900B3D1B3 /* Green Light.png */; };
+		527014E026A92FF900B3D1B3 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 527014D726A92FF900B3D1B3 /* Green.png */; };
+		527014E126A92FF900B3D1B3 /* Pink Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 527014D826A92FF900B3D1B3 /* Pink Light.png */; };
+		527014E226A92FF900B3D1B3 /* Blue Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 527014D926A92FF900B3D1B3 /* Blue Light.png */; };
+		527014E526AAB26000B3D1B3 /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527014E426AAB25F00B3D1B3 /* ThemeModel.swift */; };
+		527014E726AAB2AC00B3D1B3 /* ThemeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527014E626AAB2AC00B3D1B3 /* ThemeData.swift */; };
+		527014E926AAB6F400B3D1B3 /* ThemeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527014E826AAB6F400B3D1B3 /* ThemeSettings.swift */; };
+		52A779CE26A6C0F800289FDD /* WaToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A779CD26A6C0F800289FDD /* WaToDoApp.swift */; };
+		52A779D026A6C0F800289FDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A779CF26A6C0F800289FDD /* ContentView.swift */; };
+		52A779D226A6C0FB00289FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A779D126A6C0FB00289FDD /* Assets.xcassets */; };
+		52A779D526A6C0FB00289FDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A779D426A6C0FB00289FDD /* Preview Assets.xcassets */; };
+		52A779DA26A6C0FB00289FDD /* WaToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52A779D826A6C0FB00289FDD /* WaToDo.xcdatamodeld */; };
+		52A779E526A6C25900289FDD /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A779E426A6C25900289FDD /* AddTodoView.swift */; };
+		52A77A0726A7147700289FDD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A77A0626A7147700289FDD /* Persistence.swift */; };
+		52A77A0926A72E2A00289FDD /* LauncScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A77A0826A72E2A00289FDD /* LauncScreen.storyboard */; };
+		52A77A0B26A735AB00289FDD /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A77A0A26A735AB00289FDD /* EmptyListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		527014CA26A8717F00B3D1B3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		527014CC26A8735B00B3D1B3 /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
+		527014CE26A876F300B3D1B3 /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
+		527014D126A92FF800B3D1B3 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		527014D226A92FF800B3D1B3 /* Green Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Dark.png"; sourceTree = "<group>"; };
+		527014D326A92FF800B3D1B3 /* Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pink.png; sourceTree = "<group>"; };
+		527014D426A92FF800B3D1B3 /* Blue Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Dark.png"; sourceTree = "<group>"; };
+		527014D526A92FF900B3D1B3 /* Pink Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Dark.png"; sourceTree = "<group>"; };
+		527014D626A92FF900B3D1B3 /* Green Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Light.png"; sourceTree = "<group>"; };
+		527014D726A92FF900B3D1B3 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		527014D826A92FF900B3D1B3 /* Pink Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Light.png"; sourceTree = "<group>"; };
+		527014D926A92FF900B3D1B3 /* Blue Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Light.png"; sourceTree = "<group>"; };
+		527014E426AAB25F00B3D1B3 /* ThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
+		527014E626AAB2AC00B3D1B3 /* ThemeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeData.swift; sourceTree = "<group>"; };
+		527014E826AAB6F400B3D1B3 /* ThemeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettings.swift; sourceTree = "<group>"; };
+		52A779CA26A6C0F800289FDD /* WaToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A779CD26A6C0F800289FDD /* WaToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaToDoApp.swift; sourceTree = "<group>"; };
+		52A779CF26A6C0F800289FDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52A779D126A6C0FB00289FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A779D426A6C0FB00289FDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52A779D926A6C0FB00289FDD /* WaToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaToDo.xcdatamodel; sourceTree = "<group>"; };
+		52A779DB26A6C0FB00289FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A779E426A6C25900289FDD /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		52A77A0626A7147700289FDD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		52A77A0826A72E2A00289FDD /* LauncScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LauncScreen.storyboard; sourceTree = "<group>"; };
+		52A77A0A26A735AB00289FDD /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A779C726A6C0F800289FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527014D026A92FC300B3D1B3 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				527014D426A92FF800B3D1B3 /* Blue Dark.png */,
+				527014D926A92FF900B3D1B3 /* Blue Light.png */,
+				527014D126A92FF800B3D1B3 /* Blue.png */,
+				527014D226A92FF800B3D1B3 /* Green Dark.png */,
+				527014D626A92FF900B3D1B3 /* Green Light.png */,
+				527014D726A92FF900B3D1B3 /* Green.png */,
+				527014D526A92FF900B3D1B3 /* Pink Dark.png */,
+				527014D826A92FF900B3D1B3 /* Pink Light.png */,
+				527014D326A92FF800B3D1B3 /* Pink.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		527014E326AAB1F900B3D1B3 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				527014E426AAB25F00B3D1B3 /* ThemeModel.swift */,
+				527014E626AAB2AC00B3D1B3 /* ThemeData.swift */,
+				527014E826AAB6F400B3D1B3 /* ThemeSettings.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		52A779C126A6C0F800289FDD = {
+			isa = PBXGroup;
+			children = (
+				52A779CC26A6C0F800289FDD /* WaToDo */,
+				52A779CB26A6C0F800289FDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A779CB26A6C0F800289FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A779CA26A6C0F800289FDD /* WaToDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A779CC26A6C0F800289FDD /* WaToDo */ = {
+			isa = PBXGroup;
+			children = (
+				527014E326AAB1F900B3D1B3 /* Theme */,
+				527014D026A92FC300B3D1B3 /* Icons */,
+				52A779CD26A6C0F800289FDD /* WaToDoApp.swift */,
+				52A77A0826A72E2A00289FDD /* LauncScreen.storyboard */,
+				52A779E126A6C22A00289FDD /* View */,
+				52A779D126A6C0FB00289FDD /* Assets.xcassets */,
+				52A779DB26A6C0FB00289FDD /* Info.plist */,
+				52A779D826A6C0FB00289FDD /* WaToDo.xcdatamodeld */,
+				52A779D326A6C0FB00289FDD /* Preview Content */,
+				52A77A0626A7147700289FDD /* Persistence.swift */,
+			);
+			path = WaToDo;
+			sourceTree = "<group>";
+		};
+		52A779D326A6C0FB00289FDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52A779D426A6C0FB00289FDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52A779E126A6C22A00289FDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52A779CF26A6C0F800289FDD /* ContentView.swift */,
+				52A779E426A6C25900289FDD /* AddTodoView.swift */,
+				52A77A0A26A735AB00289FDD /* EmptyListView.swift */,
+				527014CA26A8717F00B3D1B3 /* SettingsView.swift */,
+				527014CC26A8735B00B3D1B3 /* FormRowStaticView.swift */,
+				527014CE26A876F300B3D1B3 /* FormRowLinkView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A779C926A6C0F800289FDD /* WaToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A779DE26A6C0FB00289FDD /* Build configuration list for PBXNativeTarget "WaToDo" */;
+			buildPhases = (
+				52A779C626A6C0F800289FDD /* Sources */,
+				52A779C726A6C0F800289FDD /* Frameworks */,
+				52A779C826A6C0F800289FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaToDo;
+			productName = WaToDo;
+			productReference = 52A779CA26A6C0F800289FDD /* WaToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A779C226A6C0F800289FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					52A779C926A6C0F800289FDD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 52A779C526A6C0F800289FDD /* Build configuration list for PBXProject "WaToDo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52A779C126A6C0F800289FDD;
+			productRefGroup = 52A779CB26A6C0F800289FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A779C926A6C0F800289FDD /* WaToDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A779C826A6C0F800289FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527014DF26A92FF900B3D1B3 /* Green Light.png in Resources */,
+				52A779D526A6C0FB00289FDD /* Preview Assets.xcassets in Resources */,
+				527014DB26A92FF900B3D1B3 /* Green Dark.png in Resources */,
+				52A779D226A6C0FB00289FDD /* Assets.xcassets in Resources */,
+				527014E126A92FF900B3D1B3 /* Pink Light.png in Resources */,
+				527014DC26A92FF900B3D1B3 /* Pink.png in Resources */,
+				527014DE26A92FF900B3D1B3 /* Pink Dark.png in Resources */,
+				52A77A0926A72E2A00289FDD /* LauncScreen.storyboard in Resources */,
+				527014DD26A92FF900B3D1B3 /* Blue Dark.png in Resources */,
+				527014E226A92FF900B3D1B3 /* Blue Light.png in Resources */,
+				527014DA26A92FF900B3D1B3 /* Blue.png in Resources */,
+				527014E026A92FF900B3D1B3 /* Green.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A779C626A6C0F800289FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527014CB26A8717F00B3D1B3 /* SettingsView.swift in Sources */,
+				527014CD26A8735B00B3D1B3 /* FormRowStaticView.swift in Sources */,
+				527014CF26A876F300B3D1B3 /* FormRowLinkView.swift in Sources */,
+				527014E726AAB2AC00B3D1B3 /* ThemeData.swift in Sources */,
+				52A779DA26A6C0FB00289FDD /* WaToDo.xcdatamodeld in Sources */,
+				52A779D026A6C0F800289FDD /* ContentView.swift in Sources */,
+				527014E926AAB6F400B3D1B3 /* ThemeSettings.swift in Sources */,
+				52A77A0B26A735AB00289FDD /* EmptyListView.swift in Sources */,
+				52A779CE26A6C0F800289FDD /* WaToDoApp.swift in Sources */,
+				527014E526AAB26000B3D1B3 /* ThemeModel.swift in Sources */,
+				52A779E526A6C25900289FDD /* AddTodoView.swift in Sources */,
+				52A77A0726A7147700289FDD /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52A779DC26A6C0FB00289FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52A779DD26A6C0FB00289FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52A779DF26A6C0FB00289FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WaToDo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WaToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldsg.WaToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52A779E026A6C0FB00289FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WaToDo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WaToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldsg.WaToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A779C526A6C0F800289FDD /* Build configuration list for PBXProject "WaToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A779DC26A6C0FB00289FDD /* Debug */,
+				52A779DD26A6C0FB00289FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A779DE26A6C0FB00289FDD /* Build configuration list for PBXNativeTarget "WaToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A779DF26A6C0FB00289FDD /* Debug */,
+				52A779E026A6C0FB00289FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52A779D826A6C0FB00289FDD /* WaToDo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52A779D926A6C0FB00289FDD /* WaToDo.xcdatamodel */,
+			);
+			currentVersion = 52A779D926A6C0FB00289FDD /* WaToDo.xcdatamodel */;
+			path = WaToDo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52A779C226A6C0F800289FDD /* Project object */;
+}
